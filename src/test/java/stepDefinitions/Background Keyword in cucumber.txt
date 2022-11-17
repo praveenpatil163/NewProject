@@ -1,0 +1,6 @@
+Consider In the feature file 10 scenarios are there. in these scenarios suppose all these scenarios contains the common steps in this case background will come into the picture.
+
+In the Background keyword we will enter all the common steps. 
+
+
+

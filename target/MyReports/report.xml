@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.356">
+    <testcase classname="Calculate Billing Amount" name="Billing Amount" time="0.121">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is on billing page...............................................passed
+When User enters the billing amount "1000"..................................passed
+When User enters the tax Amount "10"........................................passed
+And User clicks on the calculate button.....................................passed
+Then it gives the final Amount "1010".......................................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="Calculate Billing Amount" name="Billing Amount 2" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is on billing page...............................................passed
+When User enters the billing amount "500"...................................passed
+When User enters the tax Amount "20"........................................passed
+And User clicks on the calculate button.....................................passed
+Then it gives the final Amount "520"........................................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="Calculate Billing Amount" name="Billing Amount 3" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is on billing page...............................................passed
+When User enters the billing amount "100"...................................passed
+When User enters the tax Amount "5.5".......................................passed
+And User clicks on the calculate button.....................................passed
+Then it gives the final Amount "105.5"......................................undefined
+]]></failure>
+    </testcase>
+</testsuite>
