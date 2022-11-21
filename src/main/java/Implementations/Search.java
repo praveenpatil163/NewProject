@@ -22,5 +22,13 @@ public class Search {
     public void Register3() {
     	System.out.println("Register 3");
     }
+    
+    public void Register4() {
+    	System.out.println("Newly to the git ");
+    }
+    
+    public void Register5() {
+    	System.out.println("Newly added to the master branch");
+    }
 
 }
