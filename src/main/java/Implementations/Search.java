@@ -10,5 +10,17 @@ public class Search {
 		}
 		return null;
 	}
+	
+	public void Register1() {
+		System.out.println("Register 1");
+	}
+	
+    public void Register2() {
+		System.out.println("Register 2");
+	}
+    
+    public void Register3() {
+    	System.out.println("Register 3");
+    }
 
 }
