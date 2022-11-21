@@ -36,6 +36,14 @@ public class Product {
 	
 	public List<String> getProductList(){
 		List<String> productList=new ArrayList();
+		
+		System.out.println("Simple one ");
+		System.out.println("Simple two");
+		System.out.println("Simple three");
+		System.out.println("Simple four");
+		
+		System.out.println("New changes in git");
+		System.out.println("Entered the changes");
 		productList.add("Apple MacBook Pro");
 		productList.add("HP");
 		productList.add("Lenovo");
